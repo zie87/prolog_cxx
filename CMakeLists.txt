@@ -21,6 +21,7 @@ add_subdirectory (3rd EXCLUDE_FROM_ALL)
 
 include_directories(inc)
 add_subdirectory(test)
+add_subdirectory(example)
 
 find_package(Doxygen)
 if(DOXYGEN_FOUND)
